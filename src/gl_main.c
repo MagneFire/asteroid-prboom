@@ -68,6 +68,9 @@ extern int tran_filter_pct;
 
 #define USE_VERTEX_ARRAYS
 
+
+PFNGLCOLORTABLEEXTPROC gld_ColorTableEXT;
+
 boolean use_fog=false;
 
 int gl_nearclip=5;
